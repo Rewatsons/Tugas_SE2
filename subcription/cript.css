@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+html {
+    background-color: #313338;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+    font-family: "LXGW WenKai TC", sans-serif;
+}
+main {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+body,
+html {
+    overflow: visible;
+}
+body {
+    font-family: "LXGW WenKai TC", sans-serif;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+header {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 5px 5%;
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.123);
+    z-index: 1000;
+}
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.navbar {
+    top: 0;
+    left: 0;
+    right: 0px;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0, 2);
+    align-items: center;
+    justify-content: space-between;
+    font-size: 10px;
+    letter-spacing: 2px;
+    flex-direction: column;
+}
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 7.5rem;
+    margin-right: 150px;
+}
+.navbar ul li .aa {
+    color: white;
+}
+.navbar ul li a h1 {
+    font-size: 1.08rem;
+    font-weight: 600;
+}
+.navbar ul li a h1:hover {
+    color: rgb(253, 253, 253);
+}
+.navbar ul li a {
+    color: black;
+}
+.navbar ul li::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: rgba(66, 88, 102, 0.466);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after {
+    width: 100%;
+}
+.myaccount_button:hover {
+    color: black;
+    background-color: rgb(178, 178, 178);
+    border: 1px solid rgb(178, 178, 178);
+}
+.myaccount_button {
+    border-radius: 20px;
+    border-style: double;
+    height: 37px;
+    width: 150px;
+    display: inline-block;
+    font-size: 10px;
+    letter-spacing: 2px;
+    justify-content: flex-end;
+    background-color: #313338;
+    margin-top: 12px;
+    text-align: center;
+}
+.myaccount_button h1 {
+    color: aliceblue;
+}
+.myaccount_button a #color {
+    background-color: white;
+    color: rgb(238, 7, 7);
+}
+main {
+    margin-top: 3rem;
+}
+#hero-subscription.subscription-section {
+   
+    padding: 50px 0;
+    text-align: center;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.plan {
+    
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.plan h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.plan ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.plan ul li {
+    margin-bottom: 10px;
+}
+
+.subscription-button {
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.subscription-button:hover {
+    background-color: #0056b3;
+}
+
+.plan h6{
+    margin-top: -20px;
+}
+
+#hero-foot{
+    background-color: rgba(0, 0, 0, 0.164);
+    height: 200px;
+    
+      display: flex;
+      justify-content: center; 
+      align-items: center; 
+      padding: 2rem; 
+    
+    }
+    
+    .foot-container {
+      max-width: 100px;
+      margin-inline: auto;
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(4, 1fr);
+      align-items: start;
+      justify-content: center;
+    }
+    
+    .image-container-1 {
+      display: flex;
+      align-items: center;
+    }
+    
+    .social-icon {
+      width: 24px; 
+      margin-right: 8px; 
+    }
+    
+    .sosmed {
+      color: rgb(255, 255, 255);
+      text-align: left;
+      font-size: 1.2rem;
+      font-weight: 400;
+      line-height: 1.5;
+      letter-spacing: 0.05rem;
+      display: block;
+    }
+    
+    .hero-button-3{
+      margin-top: -30px;
+    }
+
+    .plan h5{
+        color: #1aa0fa;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+  
