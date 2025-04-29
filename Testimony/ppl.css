@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #313338;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+    font-family: "LXGW WenKai TC", sans-serif;
+}
+
+main {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+body,
+html {
+    overflow: visible;
+}
+
+body {
+    font-family: "LXGW WenKai TC", sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 5px 5%;
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.123);
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    margin-top: 10px;
+    justify-content: flex-start;
+}
+
+.navbar {
+    top: 0;
+    left: 0;
+    right: 0px;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0, 2);
+    align-items: center;
+    justify-content: space-between;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7.5rem;
+    margin-right: 150px;
+}
+
+.navbar ul li .aa {
+    color: white;
+}
+
+.navbar ul li a h1 {
+    font-size: rem;
+    font-weight: 600;
+}
+
+.navbar ul li a h1:hover {
+    color: rgb(253, 253, 253);
+}
+
+.navbar ul li a {
+    color: black;
+}
+
+.navbar ul li::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: rgba(66, 88, 102, 0.466);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+.myaccount_button:hover {
+    color: black;
+    background-color: rgb(178, 178, 178);
+    border: 1px solid rgb(178, 178, 178);
+}
+
+.myaccount_button {
+    border-radius: 20px;
+    border-style: double;
+    height: 37px;
+    width: 150px;
+    display: inline-block;
+    font-size: 10px;
+    letter-spacing: 2px;
+    justify-content: flex-end;
+    background-color: #313338;
+    margin-top: 12px;
+}
+
+.myaccount_button h1 {
+    color: aliceblue;
+}
+
+.myaccount_button a #color {
+    background-color: white;
+    color: rgb(238, 7, 7);
+}
+
+#Learn {
+    margin-top: 15px;
+    color: white;
+    text-align: center;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 5rem; /* 222.222% */
+    letter-spacing: 0.225rem;
+  }
+  .Learntext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 2rem;
+  }
+  
+  .line {
+    height: 2px;
+    background-color: white;
+    flex-grow: 1;
+    margin: 0 1rem;
+  }
+  
+  .line.right {
+    margin-right: 1rem;
+  }
+  
+  .line.left {
+    margin-left: 1rem;
+  }
+
+  #hero-learn {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 2rem; 
+  }
+  .hero-image-1 {
+    justify-content: flex-end;
+    width: 40rem;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-right: 130px;
+  }
+  
+  .headline-1 {
+    color: rgb(255, 255, 255);
+    margin: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.05rem;
+    display: block;
+  }
+  
+  .title-1 {
+    color: rgb(255, 255, 255);
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.1rem;
+    display: block;
+    margin-left: 0;
+  }
+  
+  .container-1 {
+    border-style: inset;
+    padding: 2rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    background-color: rgb(3, 34, 34);
+  }
+  
+  
+  .get_started:hover {
+    color: black;
+    background-color: rgb(178, 178, 178);
+    border: 1px solid rgb(178, 178, 178);
+  }
+  
+  .get_started {
+    border-radius: 20px;
+    border-style: double;
+    height: 37px;
+    width: 150px;
+    display: inline-block;
+    font-size: 10px;
+    letter-spacing: 2px;
+    justify-content: flex-end;
+    background-color: #313338;
+    color: aliceblue;
+    margin-top: 70px;
+  }
+  
+  .item img {
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+  }
+  
+  .item p {
+    padding-top: 10px;
+    text-align: center;
+  }
+  
+  .item .image-container:hover .popup {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+  
+  .item .image-container {
+    position: relative;
+    height: 10rem;
+    cursor: pointer;
+  }
+  
+  .item img {
+    height: 100%;
+    transition: opacity 0.25s;
+  }
+  .item .image-container:hover img {
+    opacity: 0.03;
+  }
+  .item .image-container::before {
+    transition: 0.25s;
+    inset: 0;
+    position: absolute;
+  
+    height: 100%;
+    width: 100%;
+  
+    background-color: black;
+    opacity: 0;
+  }
+  
+  .item .popup {
+    transition: 0.25s;
+  
+    position: absolute;
+    inset: 0;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    color: rgb(0, 0, 0);
+    z-index: 2;
+  
+    opacity: 0;
+  
+    transform: translate(0, 10px);
+  }
+
+  img {
+    max-width: 100%; 
+    height: auto; 
+  }
+
+  .container-ref {
+    max-width: 1000px;
+    margin-inline: auto;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: start;
+    justify-content: center;
+    
+  }
+
+  #hero-testimony{
+    margin-top: 40px;
+    
+  }
+
+  #hero-foot{
+background-color: rgba(0, 0, 0, 0.164);
+height: 200px;
+
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  padding: 2rem; 
+
+}
+
+.foot-container {
+  max-width: 100px;
+  margin-inline: auto;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: start;
+  justify-content: center;
+}
+
+.image-container-1 {
+  display: flex;
+  align-items: center;
+}
+
+.social-icon {
+  width: 24px; 
+  margin-right: 8px; 
+}
+
+.sosmed {
+  color: rgb(255, 255, 255);
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.05rem;
+  display: block;
+}
+
+.hero-button-3{
+  margin-top: -30px;
+}
+
+footer{
+    margin-top: 50px;
+}
